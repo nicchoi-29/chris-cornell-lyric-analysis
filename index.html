@@ -150,7 +150,7 @@
             <img src="Chris_Cornell_(212441909).jpeg">
         </div>
         <div class="content">
-            <h1>How Diverse Were Chris Cornell's Lyrics?</h1>
+            <h1>How Diverse Were the Lyrics Across Chris Cornell's Musical Career?</h1>
             <p class="subhead">Unlike the "basic" template, the header text is INSIDE of a .content class so it doesn't
                 get too
                 wide</p>
@@ -160,26 +160,37 @@
         <div class="byline">
             <p>By <a href="https://nicchoi.com">Nicole Choi</a></p>
         </div>
-        <p>I’m a fan of Chris Cornell and admire his songwriting, and I wanted to try text analysis, 
-            so this project is an initial attempt at that.</p>
-    
-        <p>I wanted to know how the diversity of words in Chris Cornell’s changed over time 
+
+        <p>Like many, I’m a fan of the late singer and songwriter, Chris Cornell. I also wanted to try text analysis, 
+            so this small project is an initial attempt at examining lyrics across his career.</p>
+
+        <p>I wanted to know how the diversity of words in songs associated with Chris Cornell changed over time 
             and how they differed across his different projects, from Soundgarden to Temple of the Dog to 
             his solo career to Audioslave.</p>
 
-        <p>I didn't look at every album that Cornell released during his lifetime, but instead the first and last studio 
+        <p><strong>An important qualification when it comes to this analysis</strong>: The lyrics for this 
+            analysis were retrieved through the Genius API. Though songwriting credits 
+            are available on Genius pages, they were not included in the API data used for this analysis. 
+            As a result, I could not automatically distinguish between songs solely credited to Chris Cornell 
+            as the writer and songs written collaboratively or primarily by other band members. 
+            Additionally, some songs in the sample were not performed by Cornell as the lead vocalist. 
+            I kept these tracks in the analysis for consistency with the album-level comparisons, 
+            but they are noted below.</p>
+
+
+        <p>I also didn't look at every album that Cornell released during his lifetime, but instead the first and last studio 
             albums that he released solo, and as a member of Soundgarden, Temple of the Dog, and Audioslave. This analysis looks at lyrics from <em>Euphoria Mourning</em> (1999)
         and <em>Higher Truth</em> (2015) from his solo career, <em>Temple of the Dog</em> (1991) , <em>Ultramega OK</em> (1988)
         and <em>King Animal</em> (2012) from Soundgarden, 
         and <em>Audioslave</em> (2002) and <em>Revelations</em> (2006).</p>
 
-        <p>So, across those albums, how many unique words did Cornell use in each song? </p>
+        <p>So, across those albums, how diverse was the vocabulary used in each song?</p>
 
         <div style="min-height:662px" id="datawrapper-vis-iRq7D">
             <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/iRq7D/embed.js" charset="utf-8" data-target="#datawrapper-vis-iRq7D"></script>
             <noscript><img src="https://datawrapper.dwcdn.net/iRq7D/full.png" 
-                alt="Scatter plot showing word diversity for individual Chris Cornell tracks across albums 
-                from different bands and solo projects. Each dot represents a track, with colors indicating 
+                alt="Scatter plot showing word diversity for individual tracks from Chris Cornell's bands and 
+                solo projects across albums. Each dot represents a track, with colors indicating 
                 the album. Word diversity is measured as the percentage of unique words in the lyrics. 
                 A quadratic trend line shows a slight dip followed by an upward trend across the dataset." />
             </noscript>
@@ -193,17 +204,22 @@
         <p>Here are the songs with the highest percentage of unique words across each album:</p>
       
         <ul>
-            <li>"Circle of Power" (74%) from Soundgarden's debut studio album, <em>Ultramega OK</em>.</li>
+            <li>"Circle of Power" (74%) from Soundgarden's debut studio album, <em>Ultramega OK</em>. 
+            This song was written by band members Hiro Yamamoto and Kim Thayil and performed by Yamamoto.</li>
             <li>"Say Hello 2 Heaven" (57%) from Temple of the Dog's eponymous album.</li>
             <li>"Sweet Euphoria" (71%) from Cornell's first solo studio album, <em>Euphoria Mourning</em>.</li>
             <li>"The Last Remaining Light" (56%) from Audioslave's eponymous debut album.</li>
             <li>"Nothing Left to Say But Goodbye" (54%) from Audioslave's last studio album, <em>Revelations</em>.</li>
-            <li>"Attrition" (65%) from Soundgarden's last studio album, <em>King Animal</em>.</li>
+            <li>"Attrition" (65%) from Soundgarden's last studio album, <em>King Animal</em>. This song was written by
+            band member Ben Shepherd.</li>
             <li>"Through the Window" (66%) from the last solo album that Cornell released during his lifetime, <em>Higher Truth</em>.</li>
         </ul>
 
+    <p>One takeaway from this is that lyrical diversity was not solely driven by Cornell's own songwriting. 
+        Some of the tracks with the highest percentage of unique words came from Soundgarden songs, reflecting 
+        the creativity of multiple songwriting voices.</p>
 
-    <p>I also wanted to know to what extent his vocabulary changed between the debut and final albums for each project.</p>
+    <p>I also wanted to know to what extent vocabulary changed between the debut and final albums for each band or solo release.</p>
 
 
 <iframe title="Word Diversity Increased Most between Chris Cornell's First and Last Solo Albums" 
@@ -212,10 +228,15 @@ src="https://datawrapper.dwcdn.net/crZeR/6/" scrolling="no" frameborder="0"
 style="width: 0; min-width: 100% !important; border: none;" height="308" data-external="1"></iframe>
 <script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 
-<p>Cornell's use of unique words increased the most when comparing his debut solo album to his final release.</p>
+<br>
+
+<p>The percentage of unique words increased the most when comparing Cornell's debut solo album to his final solo release.</p>
 <p>In contrast, the percentage of unique words used on Soundgarden's final album decreased when compared to its debut.</p>
 <p>And the number of unique words on Audioslave's last album increased slightly compared to the band's first album.</p>
-</div>
+<p>These observations suggest that changes in word diversity didn't follow
+    a pattern throughout Cornell's career and instead depended on the project.</p>
+
+</div
 
     <div class="footer">
         <div class="content">

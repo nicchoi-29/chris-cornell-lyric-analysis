@@ -8,7 +8,7 @@ I wanted to try analyzing text with natural language processing. I also wanted t
 
 - I used the Genius API to retrieve lyrics from Chris Cornell's solo and band albums. 
 
-- I then made all words lowercase and then used the spacy library to create a cleaner set of lyrics that removed stop words and vocalizations. I also had to remove certain words from spacy's default stop word list. For instance, I kept all pronouns because I initially wanted to answer questions regarding pronoun usage. I also kept in negative words like "not" and "never."
+- I then made all words lowercase and then used the spacy library to create a cleaner set of lyrics that removed stop words and vocalizations. I also had to remove certain words from spacy's default stop word list. For instance, I kept all pronouns because I wanted to answer questions regarding pronoun usage. I also kept in negative words like "not" and "never."
 
 - I also played around with keeping lyric tags like "chorus", "intro", and "outro," and I uploaded that jupyter notebook to this repository. I had thought they would be helpful when looking at n-grams, but because I didn't include n-grams in my final project, I decided to remove these labels. 
 

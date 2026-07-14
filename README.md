@@ -36,4 +36,4 @@ I wanted to try analyzing text with natural language processing. I also wanted t
 
 - I wanted to count instances of grammatical moods, mainly imperative and interrogative, just as a fun exercise but also because Cornell seems to sing a lot of imperatives and ask questions. While it was straightforward enough to keep in the question marks, identifying and counting the imperative felt like it would require more manual work than I had the time for. 
 - I was able to count how many questions were asked per song and per album, but I didn't think that question alone was intersting. I wanted to answer "What questions does he ask?" I made initial attempts to extract those but moved on in the interest of time. 
-- I was also interested in how language transitions from verse to chorus, but I didn't have time to research an approach that would also fit with my current skillset. 
+- I was also interested in how language transitions from verse to chorus, but I didn't have time to research an approach. 

@@ -2,7 +2,7 @@
 
 ## What I hoped to accomplish
 
-I wanted to try analyzing text with natural language processing. I also wanted to practice asking direct questions about the data than I did with my first project.
+I wanted to try analyzing text with natural language processing. I also wanted to practice asking more direct questions about the data than I did with my first project.
 
 ## Overview of Data Analysis Process
 
